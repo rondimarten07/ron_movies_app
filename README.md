@@ -49,7 +49,11 @@ A movie & TV show exploration app that implements <b>MVVM</b> design pattern by 
 - Offline support (if cached data is available)
 
 ## 🛠 Project Structure
-![project_structure](https://user-images.githubusercontent.com/88214480/170804469-e66731e5-e40c-4d61-a663-ff3eb02affdd.png)
+<p align="center">
+  <a href="https://github.com/rondimarten07/ron_movies_app/tree/main/screenshoot/screenshoot_project.png">
+    <img src="screenshoot/screenshoot_project.png">
+  </a>
+</p>
 
 The project separated into three main layers:
 - Data
