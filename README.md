@@ -13,7 +13,9 @@ A movie & TV show exploration app that implements <b>MVVM</b> design pattern by 
 </p>
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/88214480/192819481-1dd78b28-4eaf-41d9-a76c-e35992824fcb.png"/>
+  <a href="https://github.com/rondimarten07/ron_movies_app/tree/main/screenshoot/priview.png">
+    <img src="screenshoot/priview.png">
+  </a>
 </p>
 
 ## ✨ Features
@@ -45,14 +47,6 @@ A movie & TV show exploration app that implements <b>MVVM</b> design pattern by 
   - Mark the movie-TV show as favorite by tapping the heart icon
 - View favorite movies-TV shows on the *Favorites* screen
 - Offline support (if cached data is available)
-
-## ▶ ScreenShoot
-
-<p align="center">
-  <a href="https://github.com/rondimarten07/ron_movies_app/screenshoot/Screenshot_home.png">
-    <img src="Screenshot_home.png">
-  </a>
-</p>
 
 ## 🛠 Project Structure
 ![project_structure](https://user-images.githubusercontent.com/88214480/170804469-e66731e5-e40c-4d61-a663-ff3eb02affdd.png)
@@ -105,9 +99,6 @@ Consists of three packages:
 - [PhotoView](https://github.com/Baseflow/PhotoView) - Implementing zoom functionality to ImageView
 - [ExpandableLayout](https://github.com/cachapa/ExpandableLayout) - Animating the expansion and collapse of its child views
 - [LeakCanary](https://github.com/square/leakcanary) - Detecting leaks within the app
-
-## 📱 Try the App
-Check out the [Releases](https://github.com/bbor98/movieapp-mvvm-clean-architecture/releases) and download & install the APK file to try the app.
 
 ## 📜 License
 ```
