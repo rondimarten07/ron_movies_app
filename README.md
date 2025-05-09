@@ -50,8 +50,8 @@ A movie & TV show exploration app that implements <b>MVVM</b> design pattern by 
 
 ## 🛠 Project Structure
 <p align="center">
-  <a href="https://github.com/rondimarten07/ron_movies_app/tree/main/screenshoot/screenshoot_project.png">
-    <img src="screenshoot/screenshoot_project.png">
+  <a href="https://github.com/rondimarten07/ron_movies_app/tree/main/screenshoot/project.png">
+    <img src="screenshoot/project.png">
   </a>
 </p>
 
