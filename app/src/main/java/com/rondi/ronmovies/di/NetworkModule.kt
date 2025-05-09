@@ -24,7 +24,6 @@ import javax.inject.Singleton
 @Module
 @InstallIn(SingletonComponent::class)
 object NetworkModule {
-    private const val BASE_URL = "https://api.themoviedb.org/3/"
     private const val QUERY_LANGUAGE = "en"
     private const val IMAGE_LANGUAGE = "en,null"
 
@@ -61,7 +60,7 @@ object NetworkModule {
             val url = chain.request()
                 .url()
                 .newBuilder()
-                .addQueryParameter("api_key", "a206584fb88badcb4163cce55a6beb0d")
+                .addQueryParameter("api_key", BuildConfig.TMDB_API_KEY)
                 .addQueryParameter("language", QUERY_LANGUAGE)
                 .addQueryParameter("include_image_language", IMAGE_LANGUAGE)
                 .build()
@@ -93,7 +92,7 @@ object NetworkModule {
     fun provideRetrofit(okHttpClient: OkHttpClient): Retrofit =
         Retrofit.Builder()
             .client(okHttpClient)
-            .baseUrl(BASE_URL)
+            .baseUrl(BuildConfig.BASE_URL)
             .addConverterFactory(GsonConverterFactory.create())
             .build()
 

@@ -22,8 +22,8 @@ android {
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
 
-        buildConfigField "String", "TMDB_API_KEY", "\"${localProperties['tmdb_api_key']}\""
-        buildConfigField "String", "YOUTUBE_API_KEY", "\"${localProperties['youtube_api_key']}\""
+        buildConfigField "String", "BASE_URL", "\"https://api.themoviedb.org/3/\""
+        buildConfigField "String", "TMDB_API_KEY", "\"a206584fb88badcb4163cce55a6beb0d\""
     }
 
     dataBinding {
